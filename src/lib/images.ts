@@ -1,6 +1,7 @@
 export const images = {
-  logo: "/images/logo.png",
-  hero: ["/images/hero-1.jpg", "/images/hero-2.jpg", "/images/hero-3.jpg"],
+  logo: "/images/logo-transparent.png",
+  logoMain: "/images/logo.png",
+  hero: ["/images/hero-1.png", "/images/hero-2.png", "/images/hero-3.png"],
   services: {
     dryVan: "/images/service-dry-van.jpg",
     drayage: "/images/service-drayage.jpg",

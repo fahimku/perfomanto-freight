@@ -1,6 +1,6 @@
 export default function CTABanner() {
   return (
-    <section id="quote" className="bg-primary py-10 lg:py-12">
+    <section className="bg-primary py-10 lg:py-12">
       <div className="container-main">
         <div className="flex flex-col items-center gap-6 text-center lg:flex-row lg:text-left">
           <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border-2 border-white/30 bg-white/10 text-white">
@@ -19,7 +19,7 @@ export default function CTABanner() {
           </div>
 
           <a
-            href="#contact"
+            href="#quote"
             className="inline-flex shrink-0 items-center justify-center bg-white px-6 py-3 text-[11px] font-bold tracking-[0.08em] text-primary transition-colors hover:bg-white/90"
           >
             GET A QUOTE TODAY

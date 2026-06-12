@@ -1,4 +1,5 @@
 import Logo from "./Logo";
+import { images } from "@/lib/images";
 
 const quickLinks = [
   { label: "Home", href: "#home" },
@@ -6,6 +7,7 @@ const quickLinks = [
   { label: "About Us", href: "#about" },
   { label: "Carriers", href: "#carriers" },
   { label: "Customers", href: "#customers" },
+  { label: "Get a Quote", href: "#quote" },
   { label: "Contact Us", href: "#contact" },
 ];
 
@@ -54,7 +56,7 @@ export default function Footer() {
       <div className="container-main py-14 lg:py-16">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-5 lg:gap-8">
           <div className="lg:col-span-1">
-            <Logo variant="white" />
+            <Logo src={images.logoMain} />
             <p className="mt-5 text-[13px] leading-relaxed text-white/70">
               Your trusted partner for reliable, efficient, and on-time freight solutions across
               North America and beyond.

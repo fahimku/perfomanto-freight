@@ -124,3 +124,18 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+@keyframes testimonial-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.testimonial-fade-in {
+  animation: testimonial-fade-in 0.45s ease-out;
+}
